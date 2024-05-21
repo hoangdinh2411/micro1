@@ -14,9 +14,9 @@ pipeline {
                 branch "change-*"
             }
             steps{
-               sh ``` 
+               sh ''' 
                 cat README.md 
-                ```
+                '''
             }
         }
     }
