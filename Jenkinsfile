@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "linux"} 
+    agent null 
     stages {
         stage('build only on main branch') {
             when{
