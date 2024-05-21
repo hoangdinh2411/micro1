@@ -1,5 +1,5 @@
 pipeline {
-    agent null 
+    agent any 
     stages {
         stage('build only on main branch') {
             when{
